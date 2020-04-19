@@ -1,6 +1,6 @@
 FROM python:3
-ADD /src/application.py /
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+ADD /src/application.py /
 CMD [ "python", "./application.py" ]
 EXPOSE 5000/tcp
