@@ -1,0 +1,5 @@
+version: '3'
+services:
+  python-flask-helloworld:
+    build: .
+    image: 'skogdoom/python-flask-helloworld:0.1'
