@@ -2,6 +2,6 @@ version: '3.3'
 services:
   web:
     build: .
-    image: 'skogdoom/python-flask-helloworld:0.1'
+    image: 'skogdoom/python-flask-rest-helloworld:0.1'
     ports:
       - '5000:5000'
