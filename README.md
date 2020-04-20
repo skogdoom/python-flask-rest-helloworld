@@ -1,1 +1,1 @@
-# python-flask-helloworld
+# python-flask-rest-helloworld
