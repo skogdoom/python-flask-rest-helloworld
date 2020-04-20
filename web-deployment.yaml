@@ -21,7 +21,7 @@ spec:
         io.kompose.service: web
     spec:
       containers:
-      - image: skogdoom/python-flask-helloworld:0.1
+      - image: skogdoom/python-flask-rest-helloworld:0.1
         name: web
         ports:
         - containerPort: 5000
